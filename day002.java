@@ -12,7 +12,6 @@ public class main {
         System.out.println("Nama : "+ nama);
         System.out.print("Umur : "+ umur);
       
-        
     }
     
 }
