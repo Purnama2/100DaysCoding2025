@@ -4,6 +4,7 @@ public class main {
     public static void main(String[] args) {
         char inisial = 'P';
         boolean  b = true;
+
         
         System.out.println("inisial : " + inisial);
         System.out.println("sudah login : " + b);
