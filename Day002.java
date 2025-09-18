@@ -2,6 +2,7 @@ package Day002;
 
 public class main {
     public static void main(String[] args) {
+        
         String nama = "purnama";
         int umur = 20;
         String alamat = "Polewali Mandar";
