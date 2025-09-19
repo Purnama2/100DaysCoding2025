@@ -9,22 +9,29 @@ public class main {
         double tinggi;
         
         //inisialisasi
-        nama = "Purnama";
-        nim = "D0225027";
-        umur = 18;
-        kelas = 'C';
-        alamat = "Polewali Mandar";
-        tinggi = 150.0;
-        berat = 45;
+        System.out.print("Nama : ");
+        nama = input.nextLine();
+        System.out.print("Nim :");
+        nim = input.nextLine();
+        System.out.print("Alamat :");
+        alamat = input.nextLine();
+        System.out.print("Umur :");
+        umur = input.nextInt();
+        System.out.print("Kelas :");
+        kelas = input.next().charAt(0);
+        System.out.print("Berat Badan :");
+        berat = input.nextInt();
+        System.out.print("Tinggi Badan :");
+        tinggi = input.nextDouble();
         
         // menampilkan output
         System.out.println("Nama         : "+ nama);
         System.out.println("NIM          : "+ nim);
-        System.out.println("Umur         : "+ umur);
-        System.out.println("Kelas        : "+ kelas + " Informatika");
         System.out.println("Alamat       : "+ alamat);
-        System.out.println("Tinggi Badan : "+ tinggi);
-        System.out.println("Berat Badan  :" + berat);
+        System.out.println("Umur         : "+ umur + " Tahun");
+        System.out.println("Kelas        : "+ kelas + " Informatika");
+        System.out.println("Berat Badan  : "+ berat);
+        System.out.println("Tinggi Badan :" + tinggi);
                 
         /*disini saya membuat biodata menggunakan Tipe Data String, Int, Char, double
         yang masing-masing saya gunakan untuk:
