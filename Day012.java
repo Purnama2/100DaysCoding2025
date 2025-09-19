@@ -1,7 +1,10 @@
 package Day012;
 
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         //deklarasi
         String nama, nim, alamat;
         int umur, berat;
