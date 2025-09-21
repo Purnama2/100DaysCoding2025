@@ -16,7 +16,7 @@ public class main {
         char h = ab.charAt(0);
         boolean i = Boolean.parseBoolean(a);
         
-        //menampilkan input
+        //menampilkan output
         System.out.println("a\t: "+ b);
         System.out.println("b\t: "+c);
         System.out.println("c\t: "+d);
