@@ -1,25 +1,22 @@
 package Day015;
 
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
-       //deklarasi
-        int a, b;
+        Scanner input = new Scanner(System.in);
         
-        //inisialisasi
-        a = 15;
-        b = 25;
+        System.out.print("Pertambahan :");
+        int a = input.nextInt();
+        System.out.print("pengurangan :");
+        int b = input.nextInt();
         
-        //menampilkan output
-        System.out.println("Penjumlahan : "+ (a + b));
-        System.out.println("Pengurangan : "+(a - b));
+        int hasil = a + b;
+        int hasil2 = a - b;
         
-        // Operator aritmatika penjumlahan (+) dan pengurangan (-).
-        // Disini saya menggunakan tipe data int 
-        /* Operator arimatika tidak hanya menggunakan tipe data int tapi juga bisa
-        menggunakan tipe data byte, long, short, float dan double.
-        */
-                
-                
+        System.out.println("Pertambahan : "+ hasil);
+        System.out.println("Pengurangan : "+ hasil2);
+                                
     }
     
 }
