@@ -6,10 +6,12 @@ public class main {
     public static void main(String[] args) {
         Scanner p = new Scanner (System.in);
         
+        final double a = 3.14;
         System.out.print("masukkan angka: ");
-        double  a = p.nextDouble();
+        double  b = p.nextDouble();
+         
         
-        double luas = Math.PI * a * a;
+        double luas = a * b * b;
         System.out.println("Luas Lingkaran = " + luas);
         
     }
