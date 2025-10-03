@@ -19,8 +19,7 @@ public class main {
         c /= 5;
         d *= 5;
         e %= 5;
-        f = 5;
-        
+    
         
         // menampilkan output
         System.out.println(a);
