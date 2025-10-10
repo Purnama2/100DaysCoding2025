@@ -10,7 +10,7 @@ public class main {
         int a = p.nextInt();
         
         int b =  15;
-        System.out.println("apakah nilai a lebih besar dari b? \njawabannya adalah :  "+ !(a > + b) );
+        System.out.println("apakah nilai a lebih besar dari b? \njawabannya adalah :  "+ !(a > b) );
     }
  
 }
