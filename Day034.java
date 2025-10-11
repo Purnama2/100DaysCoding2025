@@ -13,11 +13,13 @@ public class main {
         System.out.print("nilai c:");
         int c = p.nextInt();
         
-        int d = a + (b * c);
-        System.out.println("Nilai akhir a = " + d);
-        System.out.println("Hasil akhir   = " + (d %2 == 0 && d / b > c|| d <= 10));
+        int nilai  = a + (b * c);
+        System.out.println("Nilai akhir a = " + nilai);
+        boolean hasil = nilai %2 == 0 && nilai / b > c|| nilai <= 10;
+        System.out.println("Hasil logika = " + hasil  );
         
         
          }
     
 }   
+        
