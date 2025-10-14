@@ -20,15 +20,15 @@ public class main {
         }
         
         if (b %2 == 0) {
-            System.out.println(a +" angka genap");
+            System.out.println(b +" angka genap");
         }else {
-            System.out.println(a +" angka ganjil");
+            System.out.println(b +" angka ganjil");
         }
         
         if (c %2 == 0) {
-            System.out.println(a +" angka genap");
+            System.out.println(c +" angka genap");
         }else {
-            System.out.println(a +" angka ganji");
+            System.out.println(c +" angka ganji");
         }
         
  
@@ -38,3 +38,4 @@ public class main {
     }
     
 
+         
