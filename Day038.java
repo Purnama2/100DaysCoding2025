@@ -13,7 +13,7 @@ public class main {
             System.out.println("contoh lain 1, 2, 3, 100, 1000.");
         }else if (angka < 0){
             System.out.println("angka "+angka +" adalah bilangan negatif");
-            System.out.println("contoh lain -1, -2, -3, -100, 1000.");
+            System.out.println("contoh lain -1, -2, -3, -100, -1000.");
         }else{
             System.out.println("angka "+ angka + " adalah bilangan nol");
             System.out.println("nol bukan bilangan positif maupun negatif");
