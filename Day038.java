@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
-        System.out.println("masukkan angka: ");
+        System.out.print("masukkan angka: ");
         int angka = input.nextInt();
         
         if (angka > 0 ) {
