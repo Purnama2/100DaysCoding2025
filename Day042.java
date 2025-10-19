@@ -47,7 +47,7 @@ public class main {
             
         
         
-        double  potongan = hasil * pajak;
+        double  potongan = hasil * pajak/100;
         double hasilakhir = hasil - potongan;
         System.out.println("============ output ============");
         System.out.println("Nama Pegawai\t\t:" + nama);
