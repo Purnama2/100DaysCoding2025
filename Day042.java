@@ -30,7 +30,7 @@ public class main {
             }else  {
                 pajak = 0;
             }
-        }else if (hasil == 2) {
+        }else if (pekerjaan == 2) {
             kerja = "Freelancer";
             if (hasil >= 5000000) {
                 pajak = 8 ;  
@@ -51,7 +51,7 @@ public class main {
         double hasilakhir = hasil - potongan;
         System.out.println("============ output ============");
         System.out.println("Nama Pegawai\t\t:" + nama);
-        System.out.println("Jenis Pekerjaan\t\t:" + pekerjaan);
+        System.out.println("Jenis Pekerjaan\t\t:" + kerja);
         System.out.println("Penghasilan Kotor\t: Rp" + hasil);
         System.out.println("Pajak DIkenakan\t\t:"+ pajak + "%");
         System.out.println("Potongan\t\t:"+ potongan );
