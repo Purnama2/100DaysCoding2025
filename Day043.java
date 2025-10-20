@@ -25,9 +25,9 @@ public class main {
             
  
         if (angka %2 == 0) {
-            ganjilgenap = "genap";
+            ganjilgenap = "genap ";
         }else {
-            ganjilgenap = "ganjil";
+            ganjilgenap = "ganjil ";
         }
         
         if (angka %3 == 0 && angka %5==0) {
