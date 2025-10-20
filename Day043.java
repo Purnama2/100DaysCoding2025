@@ -36,7 +36,7 @@ public class main {
         
         
         
-        if (angka == 0){
+        if (angka <= 0){
             hasil ="tidak dapat dibagi 3 dan 5";
         }else if (angka %3 == 0 && angka %5 ==0 ){
             hasil = " yang bisa di bagi 3 dan 5";
