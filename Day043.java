@@ -14,7 +14,7 @@ public class main {
         String ganjilgenap = "";
         String hasil = "";
         
-        if (angka >0 ) {
+        if (angka >-1 ) {
             
         
         if (angka  >1 && angka < 10){
