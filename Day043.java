@@ -36,18 +36,17 @@ public class main {
         
         
         
-        if (angka %3 == 0 && angka %5==0){
+        if (angka == 0){
+            hasil ="tidak dapat dibagi 3 dan 5";
+        }else if (angka %3 == 0 && angka %5 ==0 ){
             hasil = " yang bisa di bagi 3 dan 5";
-        }else if (angka %3 == 0){
-            hasil = " yang bisa di bagi 3";
         }else if (angka %5 == 0){
             hasil = " yang bisa di bagi 5";
-        }else if (angka == 0) {
-            hasil ="tidak dapat dibagi 3 dan 5";
+        }else if (angka %3==0) {
+            hasil = " yang bisa di bagi 3";
         }else
             hasil = " tidak dapat di bagi 3 dan 5";
                  
         
         System.out.println(angka + " adalah angka "+angka1 + ganjilgenap + hasil );
-}
 }
