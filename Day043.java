@@ -9,10 +9,10 @@ public class main {
         System.out.print("Masukkan Angka: ");
         int angka = p.nextInt();
         
+        
         String angka1 = "";
         String ganjilgenap = "";
         String hasil = "";
-        
         
         
         if (angka  >1 && angka < 10){
@@ -44,9 +44,10 @@ public class main {
             hasil = " yang bisa di bagi 5";
         }else if (angka %3==0) {
             hasil = " yang bisa di bagi 3";
-        }else
+        }else{
             hasil = " tidak dapat di bagi 3 dan 5";
-                 
+        }      
         
         System.out.println(angka + " adalah angka "+angka1 + ganjilgenap + hasil );
+}
 }
