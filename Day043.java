@@ -13,7 +13,9 @@ public class main {
         String ganjilgenap = "";
         String hasil = "";
         
-        if (angka > 1 && angka < 10){
+        
+        
+        if (angka  >1 && angka < 10){
            angka1 = "satuan ";
         }else if (angka >10 && angka <100){
             angka1 = "puluhan ";
@@ -31,15 +33,20 @@ public class main {
             ganjilgenap = "ganjil ";
         }
         
+        
+        
+        
         if (angka %3 == 0 && angka %5==0){
             hasil = " yang bisa di bagi 3 dan 5";
         }else if (angka %3 == 0){
             hasil = " yang bisa di bagi 3";
         }else if (angka %5 == 0){
             hasil = " yang bisa di bagi 5";
-        }else{
-            hasil = "yang tidak bisa di bagi 3 dan 5 ";
-        }               
+        }else if (angka == 0) {
+            hasil ="tidak dapat dibagi 3 dan 5";
+        }else
+            hasil = " tidak dapat di bagi 3 dan 5";
+                 
         
         System.out.println(angka + " adalah angka "+angka1 + ganjilgenap + hasil );
 }
