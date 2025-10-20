@@ -18,11 +18,11 @@ public class main {
         if (angka  >1 && angka < 10){
            angka1 = "adalah angka satuan ";
         }else if (angka >10 && angka <100){
-            angka1 = "adalah angka puluhan ";
+            angka1 = " adalah angka puluhan ";
         }else if (angka > 100 && angka <1000 ){
-            angka1 = "adalah angka ratusan ";   
+            angka1 = " adalah angka ratusan ";   
         }else{
-            hasil = "tidak dapat dibagi 3 dan 5";
+            hasil = " tidak dapat dibagi 3 dan 5";
         }
             
 
@@ -33,9 +33,9 @@ public class main {
         }
         
         if (angka == 0){
-            hasil ="tidak dapat dibagi 3 dan 5";
+            hasil =" tidak dapat dibagi 3 dan 5";
         }else if (angka <= 0){
-            hasil ="tidak boleh menampilkan angka negatif";
+            hasil =" tidak boleh menampilkan angka negatif";
         }else if (angka %3 == 0 && angka %5 ==0 ){
             hasil = " yang bisa di bagi 3 dan 5";
         }else if (angka %5 == 0){
