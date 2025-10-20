@@ -14,7 +14,7 @@ public class main {
         String ganjilgenap = "";
         String hasil = "";
         
-        if (angka >-1 ) {
+        if (angka >0 ) {
             
         
         if (angka  >1 && angka < 10){
@@ -31,9 +31,7 @@ public class main {
             ganjilgenap = " ganjil ";
         }
         
-        if (angka == 0){
-            hasil =" tidak dapat dibagi 3 dan 5";
-        }else if (angka %3 == 0 && angka %5 ==0 ){
+         if (angka %3 == 0 && angka %5 ==0 ){
             hasil = " yang bisa di bagi 3 dan 5";
         }else if (angka %5 == 0){
             hasil = " yang bisa di bagi 5";
@@ -45,7 +43,7 @@ public class main {
         
         System.out.println(angka + angka1 + ganjilgenap + hasil );
         }else{
-            System.out.println("tidak boleh menampilkan angka negatif");
+            System.out.println("tidak boleh menampilkan angka negatif atau 0");
         }
 }
 }
