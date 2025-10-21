@@ -4,7 +4,7 @@ public class main {
     public static void main(String[] args) {
         Scanner p = new Scanner (System.in);
         
-        System.out.println("masukkan nilai");
+        System.out.println("masukkan nilai: ");
         int nilai = p.nextInt();
         
         if (nilai <= 1 || nilai >= 100) {
