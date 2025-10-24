@@ -28,11 +28,11 @@ public class Main {
             case "sabtu":
                  System.out.println("anda memilih hari sabtu");
             break;
-            case "minggu":
+            case "minggu": 
                  System.out.println("anda memilih hari minggi");
             break;
             default:
-                 System.out.println("pilihan tidak valid")
+                 System.out.println("pilihan tidak valid");
             
         }
     }
