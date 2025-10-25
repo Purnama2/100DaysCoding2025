@@ -36,7 +36,7 @@ public class Main {
             break;
             case '%' :
                  hasil = angka % angka2;
-                 System.out.println("hasil modulus/sisa bagi = " );
+                 System.out.println("hasil modulus/sisa bagi = " + hasil);
             break;
             default:
                  System.out.println("hasil tidak di temukan");
