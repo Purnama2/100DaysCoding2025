@@ -27,12 +27,12 @@ public class Main {
             case 2:
                    harga = 12000;
                    harga *= jumlah;
-                   System.out.println("Anda memilih Gado-Gado dengan porsi "+ jumlah + ". Semua total pembayaran Rp"+harga);
+                   System.out.println("Anda memilih Mie Goreng dengan porsi "+ jumlah + ". Semua total pembayaran Rp"+harga);
             break;
             case 3:
                    harga = 10000;
                    harga *= jumlah;
-                   System.out.println("Anda memilih Nasi Goreng dengan porsi "+ jumlah + ". Semua total pembayaran Rp"+harga);
+                   System.out.println("Anda memilih Gado-Gado dengan porsi "+ jumlah + ". Semua total pembayaran Rp"+harga);
             break;
             default: 
                    System.out.println(" Pilihan tidak valid");
