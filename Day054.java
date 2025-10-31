@@ -1,8 +1,8 @@
-package day045;
+package main;
 
 import java.util.Scanner;
 
-public class main {
+public class lll {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,12 +16,18 @@ public class main {
         int nilaiTerbesar = 0;
         int nilaiTerkecil = 100;
         double rataRata = 0;
+        
 
         for (int i = 1; i <= jumlah; i++) {
             System.out.print("Masukkan nilai ke-" + i + ": ");
             int nilai = sc.nextInt();
 
-            if (nilai >= 1 && nilai <= 100) {
+            if (nilai <= 1 || nilai >=100) {
+                System.out.println("Nilai tidak valid dan tidak dapat diproses");
+                jumlahTidakValid++;
+                continue;
+            }
+            
                 totalNilaiValid += nilai;
                 jumlahNilaiValid++;
 
@@ -32,14 +38,11 @@ public class main {
                 if (nilai < nilaiTerkecil) {
                     nilaiTerkecil = nilai;
                 }
-            } else {
-                System.out.println("Nilai tidak valid dan tidak dapat diproses");
-                jumlahTidakValid++;
-            }
+            
         }
 
         if (jumlahNilaiValid > 0) {
-            rataRata = (double) totalNilaiValid / jumlahNilaiValid;
+            rataRata = (double)totalNilaiValid / jumlahNilaiValid;
         }
 
         System.out.println("\n=== Hasil ===");
