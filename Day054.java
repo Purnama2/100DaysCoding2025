@@ -45,7 +45,6 @@ public class lll {
             rataRata = (double)totalNilaiValid / jumlahNilaiValid;
         }
 
-        System.out.println("\n=== Hasil ===");
         System.out.println("Total nilai valid: " + totalNilaiValid);
         System.out.println("Jumlah nilai valid: " + jumlahNilaiValid);
         System.out.println("Jumlah nilai tidak valid: " + jumlahTidakValid);
