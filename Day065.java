@@ -14,6 +14,7 @@ public class Main {
 
         for (int i = 1; i <= n; i++) {
             hasil *= i; 
+            System.out.println(i + " = " +hasil);
         }
 
         System.out.println("Faktorial dari " + n + " adalah: " + hasil);
