@@ -11,13 +11,17 @@ public class Main {
         int n = sc.nextInt();
 
         int hasil = 1;
-
-        for (int i = 1; i <= n; i++) {
-            hasil *= i; 
-            System.out.println(i + " = " +hasil);
+        
+        for (int i = n; i >= 1; i--) {
+            hasil *= i;
+            System.out.print(i);
+            if (i > 1) {
+                System.out.print(" * ");
+            }
         }
 
-        System.out.println("Faktorial dari " + n + " adalah: " + hasil);
+
+        System.out.println("= "+ hasil+"\nFaktorial dari " + n + " adalah: " + hasil);
     }
     
 }
