@@ -20,7 +20,7 @@ public class Day78 {
         System.out.println("Huruf Kecil (toLowerCase): " + a.toLowerCase());
         
         //substring
-        System.out.println("Substring(0-6): " + a.substring(0, 4));
+        System.out.println("Substring(0-6): " + a.substring(0, 6));
         System.out.println("Replace spasi jadi '-': " + a.replace(" ", "-"));
 
         //trim 
