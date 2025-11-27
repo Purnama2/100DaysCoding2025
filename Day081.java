@@ -5,7 +5,7 @@ public class Day081 {
          int []a = {12, 15, 17, 18, 20};
          
          System.out.println("indeks 0: "+ a [0]);
-         System.out.println("indeks 0: "+ a [2]);
-         System.out.println("indeks 0: "+ a [4]);
+         System.out.println("indeks 2: "+ a [2]);
+         System.out.println("indeks 4: "+ a [4]);
      }
 }
